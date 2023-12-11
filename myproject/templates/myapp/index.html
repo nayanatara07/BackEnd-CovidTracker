@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Covid Tracker</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    {% block body_block %}
+    <table>
+        {% for i in combined_cases %}
+        <tr>
+            <th>{{ i.0 }}</th>
+            <td>{{ i.1 }}</td>
+            <td>{{ i.2 }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endblock %}
+</body>

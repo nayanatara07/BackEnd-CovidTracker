@@ -1,6 +1,6 @@
 # Covid Tracker Backend
 
-A simple backend project for tracking Covid-19 statistics and displaying them in a table format. This project uses a template engine (indicated by `{% ... %}`) to dynamically generate HTML content based on the provided data.
+A simple backend project for tracking COVID-19 statistics and displaying them in a table format. This project uses a template engine (indicated by `{% ... %}`) to dynamically generate HTML content based on the provided data.
 
 ## Table of Contents
 
@@ -17,6 +17,11 @@ The Covid Tracker Backend is a server-side application that generates an HTML ta
 1. Ensure you have the necessary dependencies installed.
 2. Run the backend server.
 3. Access the generated HTML table by navigating to the appropriate endpoint.
+
+### Dependencies
+
+- [Jinja](https://jinja.palletsprojects.com/): The template engine used to render HTML dynamically.
+- Django is used in my project.
 
 ### Running the Backend
 

@@ -21,7 +21,7 @@ The Covid Tracker Backend is a server-side application that generates an HTML ta
 ### Dependencies
 
 - [Jinja](https://jinja.palletsprojects.com/): The template engine used to render HTML dynamically.
-- Django is used in my project.
+- I have used Django in my project.
 
 ### Running the Backend
 
